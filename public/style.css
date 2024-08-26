@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.fale {
+    text-align: center;
+    background-color: #efefef;
+    color: #193156;
+    border: none;
+}
+
+.linkSocial {
+    color: #193156;
+}
+
+.imgMobile {
+    display: none;
+}
+
+.cardClientes {
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 350px;
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+    color: #0B2E53;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px 0px #0B2E53;
+
+}
+
+.cardClientes img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+
+.sobre {
+    text-align: center;
+    color: #193156;
+}
+
+.cardSobre {
+    width: 65% !important;
+}
+
+.depoimento {
+    text-align: center;
+    background-color: #efefef;
+    color: #193156;
+}
+
+.footerDiv {
+    text-align: center;
+    max-width: 100%;
+    background-color: #193156;
+}
+
+.botaoNav {
+    background-color: #193156;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+    border-radius: 30px;
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}
+
+.navCred {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.cardAjuste {
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 270px;
+    text-align: center;
+    padding: 20px;
+    height: 270px;
+    color: #0B2E53;
+    border: none;
+}
+
+.bg-main-cards {
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+
+}
+
+@media only screen and (max-width:1024px) {
+    .rowConve {
+        justify-content: center;
+        display: flex;
+    }
+
+    .cardConve {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide {
+        padding: 1% !important;
+    }
+
+    .depoCard {
+        display: grid;
+    }
+
+    .sobre {
+        padding: 3% !important;
+
+    }
+
+
+    .cardSobre {
+        padding: 0 !important;
+        width: 80% !important;
+
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .slide {
+        margin: 7%;
+    }
+
+    .rowConve {
+        justify-content: center;
+        display: flex;
+    }
+
+    .cardConve {
+        width: 35%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .slide {
+        padding: 1% !important;
+    }
+
+    .depoCard {
+        display: grid;
+    }
+
+    .imgPadrao {
+        display: none !important;
+    }
+
+    .imgMobile {
+        display: block;
+        width: 370px;
+        height: 500px;
+    }
+    .navCred {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .rowConve {
+        padding: 0 !important;
+    }
+    .card {
+        padding: 20px !important;
+    }
+
+    .cardConve {
+        display: flex;
+    }
+
+    .sobre {
+        padding: 3% !important;
+
+    }
+
+    .fale {
+        display: contents;
+    }
+
+    .faleDiv a {
+        margin: 1%;
+    }
+
+    .cardSobre {
+        padding: 0 !important;
+        width: 100% !important;
+
+    }
+
+    .footer {
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    .footerDiv {
+        padding: 0 !important;
+    }
+
+    .rowFooter {
+        display: inline-grid;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    * {
+        font-size: 17px;
+    }
+
+    .slide {
+        padding: 1% !important;
+    }
+
+    .depoCard {
+        display: grid;
+    }
+    
+
+    .navCred {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .rowConve {
+        justify-content: center;
+        display: flex;
+    }
+
+    .cardConve {
+        width: 35%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sobre {
+        padding: 3% !important;
+
+    }
+
+
+    .cardSobre {
+        padding: 0 !important;
+        width: 100% !important;
+
+    }
+
+    .footer {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .footer img {
+        width: 100%;
+    }
+
+    .rowFooter {
+        display: inline-grid;
+        width: 50%;
+    }
+}
